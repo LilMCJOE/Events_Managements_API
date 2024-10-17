@@ -1,4 +1,6 @@
+-------------------------------------
 API URL: songa123.pythonanywhere.com
+-------------------------------------
 
 You can use tools like Postman or curl to test the endpoints:
 1. User Registration:
@@ -19,9 +21,9 @@ You can use tools like Postman or curl to test the endpoints:
 List All Upcoming Events with Pagination:
 * GET /api/events/?page=1 - Retrieves the first page of events.
 Filter by Title:
-* GET /api/events/?title=conference - Retrieves events with "conference" in the title.
+* GET /api/events/?title=Birthday - Retrieves events with "conference" in the title.
 Filter by Location:
-* GET /api/events/?location=New York - Retrieves events located in "New York".
+* GET /api/events/?location=Kigali - Retrieves events located in "New York".
 Filter by Date Range:
 * GET /api/events/?date_time_after=2024-01-01T00:00:00Z&date_time_before=2024-12-31T23:59:59Z - Retrieves events happening within the specified date range.
 
