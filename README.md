@@ -1,3 +1,5 @@
+API URL: songa123.pythonanywhere.com
+
 You can use tools like Postman or curl to test the endpoints:
 1. User Registration:
     * POST /api/register/ with username, email, and password.
